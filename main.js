@@ -1,11 +1,12 @@
 addEventListener(`DOMContentLoaded`,()=>{
-    // # DEFINIR VARIABLES| NUEMRIAS
-    // # DATOS DE ENTRADA|
-    // ## OPERACIONES BASICAS:| + /
-    let cajas=Number(25)
-    let kilos=Number(748)
+    // # DEFINIR VARIABLES NUEMRIAS
+    // # DATOS DE ENTRADA
+    // ## OPERACIONES BASICAS: + /
+    // from fractions import Fraction
+    let martin=fractions(2**3)
+    let jairo=fractions(1**4)
     // #PROCESOS U OPERACIONES
-    let res=(cajas*kilos)
+    let res=(martin-jairo)
     // #salida o entrada de resultado
-    console.log(`numero de kilos que transporta: ${res} kg`);
+    console.log(` la parte que le responde a lorena es de: ${res}`);
 })
