@@ -1,11 +1,20 @@
 addEventListener(`DOMContentLoaded`,()=>{
     // # DEFINIR VARIABLES NUEMRIAS
     // # DATOS DE ENTRADA
-    // ## OPERACIONES BASICAS: + 
-    let nacimiento=Number(prompt(`dijite su año de nacimiento:`))
-    let fechaactual=Number(prompt(`dijite el año actual:`))
+    // ## OPERACIONES BASICAS: + /
+    let prod1=Number(prompt(`coloque el valor del producto:`))
+    let prod2=Number(prompt(`coloque el valor del producto:`))
+    let prod3=Number(prompt(`coloque el valor del producto:`))
+    let prod4=Number(prompt(`coloque el valor del producto:`))
+    let prod5=Number(prompt(`coloque el valor del producto:`))
+
     // #PROCESOS U OPERACIONES
-    let res=(fechaactual-nacimiento)
+    let tol=(prod1+prod2+prod3+prod4+prod5)
+    let iva=Number(prompt("coloque el valor del iva:"))
+    let vaiva=tol*iva
+    let res=tol+vaiva
     // #salida o entrada de resultado
-    console.log(`su edad es: ${res}`);
+    console.log(` valor del producto con el iva:${res}`);
+    console.log(`el sub valor es de  ${tol}`);
+    console.log(`valor del iva:${vaiva} `);
 })
