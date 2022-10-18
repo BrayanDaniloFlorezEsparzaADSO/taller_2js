@@ -2,11 +2,10 @@ addEventListener(`DOMContentLoaded`,()=>{
     // # DEFINIR VARIABLES NUEMRIAS
     // # DATOS DE ENTRADA
     // ## OPERACIONES BASICAS: + /
-    // from fractions import Fraction
-    let martin=fractions(2**3)
-    let jairo=fractions(1**4)
+    let precio=Number(prompt(`ingrese el valor por m2`))
+    let metros=Number(prompt(`ingrese los m2 que quiere pintar`))
     // #PROCESOS U OPERACIONES
-    let res=(martin-jairo)
+    let res=metros*precio
     // #salida o entrada de resultado
-    console.log(` la parte que le responde a lorena es de: ${res}`);
+    console.log(`el valor del cuadro es de: ${res}`);
 })
